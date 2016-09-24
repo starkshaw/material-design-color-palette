@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<array>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.95999997854232788</real>
+			<key>green</key>
+			<real>0.9100000262260437</real>
+			<key>name</key>
+			<string>50 - Lavender</string>
+			<key>red</key>
+			<real>0.93000000715255737</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.9100000262260437</real>
+			<key>green</key>
+			<real>0.76999998092651367</real>
+			<key>name</key>
+			<string>100 - Prelude</string>
+			<key>red</key>
+			<real>0.81999999284744263</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.86000001430511475</real>
+			<key>green</key>
+			<real>0.62000000476837158</real>
+			<key>name</key>
+			<string>200 - Light Pastel Purple</string>
+			<key>red</key>
+			<real>0.69999998807907104</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.80000001192092896</real>
+			<key>green</key>
+			<real>0.46000000834465027</real>
+			<key>name</key>
+			<string>300 - Lilac Bush</string>
+			<key>red</key>
+			<real>0.57999998331069946</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.75999999046325684</real>
+			<key>green</key>
+			<real>0.34000000357627869</real>
+			<key>name</key>
+			<string>400 - Fuchsia Blue</string>
+			<key>red</key>
+			<real>0.49000000953674316</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.72000002861022949</real>
+			<key>green</key>
+			<real>0.23000000417232513</real>
+			<key>name</key>
+			<string>500 - Purple Heart</string>
+			<key>red</key>
+			<real>0.40000000596046448</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.68999999761581421</real>
+			<key>green</key>
+			<real>0.20999999344348907</real>
+			<key>name</key>
+			<string>600 - Purple Heart</string>
+			<key>red</key>
+			<real>0.37000000476837158</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.6600000262260437</real>
+			<key>green</key>
+			<real>0.18000000715255737</real>
+			<key>name</key>
+			<string>700 - Daisy Bush</string>
+			<key>red</key>
+			<real>0.31999999284744263</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.62999999523162842</real>
+			<key>green</key>
+			<real>0.15000000596046448</real>
+			<key>name</key>
+			<string>800 - Daisy Bush</string>
+			<key>red</key>
+			<real>0.27000001072883606</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.56999999284744263</real>
+			<key>green</key>
+			<real>0.10999999940395355</real>
+			<key>name</key>
+			<string>900 - Blue Gem</string>
+			<key>red</key>
+			<real>0.18999999761581421</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>1</real>
+			<key>green</key>
+			<real>0.52999997138977051</real>
+			<key>name</key>
+			<string>A100 - Bright Lavender</string>
+			<key>red</key>
+			<real>0.69999998807907104</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>1</real>
+			<key>green</key>
+			<real>0.30000001192092896</real>
+			<key>name</key>
+			<string>A200 - Medium Slate Blue</string>
+			<key>red</key>
+			<real>0.49000000953674316</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>1</real>
+			<key>green</key>
+			<real>0.11999999731779099</real>
+			<key>name</key>
+			<string>A400 - Han Purple</string>
+			<key>red</key>
+			<real>0.40000000596046448</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.92000001668930054</real>
+			<key>green</key>
+			<real>0.0</real>
+			<key>name</key>
+			<string>A700 - Persian Blue</string>
+			<key>red</key>
+			<real>0.37999999523162842</real>
+		</dict>
+	</array>
+	<key>name</key>
+	<string>Material Design Color - Deep Purple</string>
+</dict>
+</plist>
