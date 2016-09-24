@@ -1,0 +1,103 @@
+{
+  "name" : "Material Design Color - Pink",
+  "colors" : [
+    {
+      "red" : 0.9882353,
+      "alpha" : 1,
+      "name" : "50 - Carousel Pink",
+      "blue" : 0.9254902,
+      "green" : 0.8941177
+    },
+    {
+      "red" : 0.972549,
+      "alpha" : 1,
+      "name" : "100 - Lavender",
+      "blue" : 0.8156863,
+      "green" : 0.7333333
+    },
+    {
+      "red" : 0.9568627,
+      "alpha" : 1,
+      "name" : "200 - Illusion",
+      "blue" : 0.6941177,
+      "green" : 0.5607843
+    },
+    {
+      "red" : 0.9411765,
+      "alpha" : 1,
+      "name" : "300 - Light Crimson",
+      "blue" : 0.572549,
+      "green" : 0.3843137
+    },
+    {
+      "red" : 0.9254902,
+      "alpha" : 1,
+      "name" : "400 - Cerise Pink",
+      "blue" : 0.4784314,
+      "green" : 0.2509804
+    },
+    {
+      "red" : 0.9137255,
+      "alpha" : 1,
+      "name" : "500 - Razzmatazz",
+      "blue" : 0.3882353,
+      "green" : 0.1176471
+    },
+    {
+      "red" : 0.8470588,
+      "alpha" : 1,
+      "name" : "600 - Dogwood Rose",
+      "blue" : 0.3764706,
+      "green" : 0.1058824
+    },
+    {
+      "red" : 0.7607843,
+      "alpha" : 1,
+      "name" : "700 - Bright Maroon",
+      "blue" : 0.3568628,
+      "green" : 0.09411765
+    },
+    {
+      "red" : 0.6784314,
+      "alpha" : 1,
+      "name" : "800 - Jazzberry Jam",
+      "blue" : 0.3411765,
+      "green" : 0.07843138
+    },
+    {
+      "red" : 0.5333334,
+      "alpha" : 1,
+      "name" : "900 - Disco",
+      "blue" : 0.3098039,
+      "green" : 0.05490196
+    },
+    {
+      "red" : 1,
+      "alpha" : 1,
+      "name" : "A100 - Tickle Me Pink",
+      "blue" : 0.6705883,
+      "green" : 0.5019608
+    },
+    {
+      "red" : 1,
+      "alpha" : 1,
+      "name" : "A200 - Violet Red",
+      "blue" : 0.5058824,
+      "green" : 0.2509804
+    },
+    {
+      "red" : 0.9607843,
+      "alpha" : 1,
+      "name" : "A400 - Folly",
+      "blue" : 0.3411765,
+      "green" : 0
+    },
+    {
+      "red" : 0.772549,
+      "alpha" : 1,
+      "name" : "A700 - Dogwood Rose",
+      "blue" : 0.3843137,
+      "green" : 0.06666667
+    }
+  ]
+}

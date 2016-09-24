@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<array>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.92549020051956177</real>
+			<key>green</key>
+			<real>0.89411771297454834</real>
+			<key>name</key>
+			<string>50 - Carousel Pink</string>
+			<key>red</key>
+			<real>0.98823529481887817</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.81568628549575806</real>
+			<key>green</key>
+			<real>0.7333332896232605</real>
+			<key>name</key>
+			<string>100 - Lavender</string>
+			<key>red</key>
+			<real>0.97254902124404907</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.69411772489547729</real>
+			<key>green</key>
+			<real>0.56078428030014038</real>
+			<key>name</key>
+			<string>200 - Illusion</string>
+			<key>red</key>
+			<real>0.9568626880645752</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.57254898548126221</real>
+			<key>green</key>
+			<real>0.38431370258331299</real>
+			<key>name</key>
+			<string>300 - Light Crimson</string>
+			<key>red</key>
+			<real>0.94117647409439087</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.47843140363693237</real>
+			<key>green</key>
+			<real>0.25098040699958801</real>
+			<key>name</key>
+			<string>400 - Cerise Pink</string>
+			<key>red</key>
+			<real>0.92549020051956177</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.38823530077934265</real>
+			<key>green</key>
+			<real>0.11764709651470184</real>
+			<key>name</key>
+			<string>500 - Razzmatazz</string>
+			<key>red</key>
+			<real>0.91372549533843994</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.37647059559822083</real>
+			<key>green</key>
+			<real>0.10588239878416061</real>
+			<key>name</key>
+			<string>600 - Dogwood Rose</string>
+			<key>red</key>
+			<real>0.84705877304077148</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.35686281323432922</real>
+			<key>green</key>
+			<real>0.094117648899555206</real>
+			<key>name</key>
+			<string>700 - Bright Maroon</string>
+			<key>red</key>
+			<real>0.7607843279838562</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.34117650985717773</real>
+			<key>green</key>
+			<real>0.078431382775306702</real>
+			<key>name</key>
+			<string>800 - Jazzberry Jam</string>
+			<key>red</key>
+			<real>0.67843139171600342</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.30980390310287476</real>
+			<key>green</key>
+			<real>0.054901961237192154</real>
+			<key>name</key>
+			<string>900 - Disco</string>
+			<key>red</key>
+			<real>0.533333420753479</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.67058831453323364</real>
+			<key>green</key>
+			<real>0.50196081399917603</real>
+			<key>name</key>
+			<string>A100 - Tickle Me Pink</string>
+			<key>red</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.5058823823928833</real>
+			<key>green</key>
+			<real>0.25098040699958801</real>
+			<key>name</key>
+			<string>A200 - Violet Red</string>
+			<key>red</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.34117650985717773</real>
+			<key>green</key>
+			<real>0.0</real>
+			<key>name</key>
+			<string>A400 - Folly</string>
+			<key>red</key>
+			<real>0.96078431606292725</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.38431370258331299</real>
+			<key>green</key>
+			<real>0.066666670143604279</real>
+			<key>name</key>
+			<string>A700 - Dogwood Rose</string>
+			<key>red</key>
+			<real>0.77254897356033325</real>
+		</dict>
+	</array>
+	<key>name</key>
+	<string>Material Design Color - Pink</string>
+</dict>
+</plist>
