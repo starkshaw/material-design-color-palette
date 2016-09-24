@@ -1,0 +1,103 @@
+{
+  "name" : "Material Design Color - Red",
+  "colors" : [
+    {
+      "red" : 1,
+      "alpha" : 1,
+      "name" : "50 - Fair Pink",
+      "blue" : 0.9333333,
+      "green" : 0.9215686
+    },
+    {
+      "red" : 1,
+      "alpha" : 1,
+      "name" : "100 - Cosmos",
+      "blue" : 0.8235294,
+      "green" : 0.8039216
+    },
+    {
+      "red" : 0.9372549,
+      "alpha" : 1,
+      "name" : "200 - Sea Pink",
+      "blue" : 0.6039216,
+      "green" : 0.6039216
+    },
+    {
+      "red" : 0.8980392,
+      "alpha" : 1,
+      "name" : "300 - Froly",
+      "blue" : 0.4509804,
+      "green" : 0.4509804
+    },
+    {
+      "red" : 0.9372549,
+      "alpha" : 1,
+      "name" : "400 - Carmine Pink",
+      "blue" : 0.3137255,
+      "green" : 0.3254902
+    },
+    {
+      "red" : 0.9568627,
+      "alpha" : 1,
+      "name" : "500 - Red Orange",
+      "blue" : 0.2117647,
+      "green" : 0.2627451
+    },
+    {
+      "red" : 0.8980392,
+      "alpha" : 1,
+      "name" : "600 - Cg Red",
+      "blue" : 0.2078431,
+      "green" : 0.2235294
+    },
+    {
+      "red" : 0.827451,
+      "alpha" : 1,
+      "name" : "700 - Persian Red",
+      "blue" : 0.1843137,
+      "green" : 0.1843137
+    },
+    {
+      "red" : 0.7764706,
+      "alpha" : 1,
+      "name" : "800 - Fire Engine Red",
+      "blue" : 0.1568628,
+      "green" : 0.1568628
+    },
+    {
+      "red" : 0.7176471,
+      "alpha" : 1,
+      "name" : "900 - Cornell Red",
+      "blue" : 0.1098039,
+      "green" : 0.1098039
+    },
+    {
+      "red" : 1,
+      "alpha" : 1,
+      "name" : "A100 - Geraldine",
+      "blue" : 0.5019608,
+      "green" : 0.5411765
+    },
+    {
+      "red" : 1,
+      "alpha" : 1,
+      "name" : "A200 - Red Orange",
+      "blue" : 0.3215686,
+      "green" : 0.3215686
+    },
+    {
+      "red" : 1,
+      "alpha" : 1,
+      "name" : "A400 - Awesome",
+      "blue" : 0.2666667,
+      "green" : 0.09019608
+    },
+    {
+      "red" : 0.8352941,
+      "alpha" : 1,
+      "name" : "A700 - Rosso Corsa",
+      "blue" : 0,
+      "green" : 0
+    }
+  ]
+}

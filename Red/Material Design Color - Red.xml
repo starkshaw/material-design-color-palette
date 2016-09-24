@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<array>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.93333327770233154</real>
+			<key>green</key>
+			<real>0.92156857252120972</real>
+			<key>name</key>
+			<string>50 - Fair Pink</string>
+			<key>red</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.82352942228317261</real>
+			<key>green</key>
+			<real>0.80392158031463623</real>
+			<key>name</key>
+			<string>100 - Cosmos</string>
+			<key>red</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.60392159223556519</real>
+			<key>green</key>
+			<real>0.60392159223556519</real>
+			<key>name</key>
+			<string>200 - Sea Pink</string>
+			<key>red</key>
+			<real>0.93725490570068359</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.45098039507865906</real>
+			<key>green</key>
+			<real>0.45098039507865906</real>
+			<key>name</key>
+			<string>300 - Froly</string>
+			<key>red</key>
+			<real>0.89803922176361084</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.31372550129890442</real>
+			<key>green</key>
+			<real>0.32549020648002625</real>
+			<key>name</key>
+			<string>400 - Carmine Pink</string>
+			<key>red</key>
+			<real>0.93725490570068359</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.21176469326019287</real>
+			<key>green</key>
+			<real>0.26274511218070984</real>
+			<key>name</key>
+			<string>500 - Red Orange</string>
+			<key>red</key>
+			<real>0.9568626880645752</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.20784309506416321</real>
+			<key>green</key>
+			<real>0.2235293984413147</real>
+			<key>name</key>
+			<string>600 - Cg Red</string>
+			<key>red</key>
+			<real>0.89803922176361084</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.18431369960308075</real>
+			<key>green</key>
+			<real>0.18431369960308075</real>
+			<key>name</key>
+			<string>700 - Persian Red</string>
+			<key>red</key>
+			<real>0.82745099067687988</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.15686279535293579</real>
+			<key>green</key>
+			<real>0.15686279535293579</real>
+			<key>name</key>
+			<string>800 - Fire Engine Red</string>
+			<key>red</key>
+			<real>0.7764706015586853</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.10980390012264252</real>
+			<key>green</key>
+			<real>0.10980390012264252</real>
+			<key>name</key>
+			<string>900 - Cornell Red</string>
+			<key>red</key>
+			<real>0.71764707565307617</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.50196081399917603</real>
+			<key>green</key>
+			<real>0.54117649793624878</real>
+			<key>name</key>
+			<string>A100 - Geraldine</string>
+			<key>red</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.32156860828399658</real>
+			<key>green</key>
+			<real>0.32156860828399658</real>
+			<key>name</key>
+			<string>A200 - Red Orange</string>
+			<key>red</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.2666667103767395</real>
+			<key>green</key>
+			<real>0.090196080505847931</real>
+			<key>name</key>
+			<string>A400 - Awesome</string>
+			<key>red</key>
+			<real>1</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.0</real>
+			<key>green</key>
+			<real>0.0</real>
+			<key>name</key>
+			<string>A700 - Rosso Corsa</string>
+			<key>red</key>
+			<real>0.83529412746429443</real>
+		</dict>
+	</array>
+	<key>name</key>
+	<string>Material Design Color - Red</string>
+</dict>
+</plist>
