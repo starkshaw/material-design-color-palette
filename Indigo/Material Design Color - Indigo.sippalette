@@ -1,0 +1,103 @@
+{
+  "name" : "Material Design Color - Indigo",
+  "colors" : [
+    {
+      "red" : 0.91,
+      "alpha" : 1,
+      "name" : "50 - Glitter",
+      "blue" : 0.96,
+      "green" : 0.92
+    },
+    {
+      "red" : 0.77,
+      "alpha" : 1,
+      "name" : "100 - Periwinkle",
+      "blue" : 0.91,
+      "green" : 0.79
+    },
+    {
+      "red" : 0.62,
+      "alpha" : 1,
+      "name" : "200 - Wistful",
+      "blue" : 0.85,
+      "green" : 0.66
+    },
+    {
+      "red" : 0.47,
+      "alpha" : 1,
+      "name" : "300 - Ship Cove",
+      "blue" : 0.8,
+      "green" : 0.53
+    },
+    {
+      "red" : 0.36,
+      "alpha" : 1,
+      "name" : "400 - Indigo",
+      "blue" : 0.75,
+      "green" : 0.42
+    },
+    {
+      "red" : 0.25,
+      "alpha" : 1,
+      "name" : "500 - Violet Blue",
+      "blue" : 0.71,
+      "green" : 0.32
+    },
+    {
+      "red" : 0.22,
+      "alpha" : 1,
+      "name" : "600 - Violet Blue",
+      "blue" : 0.67,
+      "green" : 0.29
+    },
+    {
+      "red" : 0.19,
+      "alpha" : 1,
+      "name" : "700 - Sapphire",
+      "blue" : 0.62,
+      "green" : 0.25
+    },
+    {
+      "red" : 0.16,
+      "alpha" : 1,
+      "name" : "800 - Bay of Many",
+      "blue" : 0.58,
+      "green" : 0.21
+    },
+    {
+      "red" : 0.1,
+      "alpha" : 1,
+      "name" : "900 - Saint Patrick Blue",
+      "blue" : 0.49,
+      "green" : 0.14
+    },
+    {
+      "red" : 0.55,
+      "alpha" : 1,
+      "name" : "A100 - Portage",
+      "blue" : 1,
+      "green" : 0.62
+    },
+    {
+      "red" : 0.33,
+      "alpha" : 1,
+      "name" : "A200 - Ultramarine Blue",
+      "blue" : 1,
+      "green" : 0.43
+    },
+    {
+      "red" : 0.24,
+      "alpha" : 1,
+      "name" : "A400 - Ultramarine Blue",
+      "blue" : 1,
+      "green" : 0.35
+    },
+    {
+      "red" : 0.19,
+      "alpha" : 1,
+      "name" : "A700 - Ultramarine Blue",
+      "blue" : 1,
+      "green" : 0.31
+    }
+  ]
+}

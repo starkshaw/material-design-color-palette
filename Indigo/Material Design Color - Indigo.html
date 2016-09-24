@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Material Design Color - Indigo</title>
+        <meta charset='utf-8'>
+        <meta name='description' content='Material Design Color - Indigo'>
+        <meta name='keywords' content='Palette, Sip, Color, Picker'>
+        <meta name='author' content='Olá Brothers, sip@theolabrothers.com'>
+        <style>
+/*=====================================================================
+ 
+ by:		The Olá Brothers
+ in:		Sun, 31 Jan 2016
+ 
+ =====================================================================*/
+
+
+/*  RESET BROWSER DEFAULT ========================================== */
+
+
+/*  GENERAL ======================================================== */
+
+@media screen {
+    * {
+        font-size:100%;
+        vertical-align:baseline;
+        border:0;
+        outline:0;
+        font-family:"SF UI Text", helvetica, arial, sans-serif;
+        font-weight:300;
+        margin:0;
+        padding:0;
+        -webkit-print-color-adjust: exact;
+    }
+    
+    section {
+        background-color:#fff;
+        width:100%;
+    }
+    
+    #articles-wrap {
+        overflow:hidden;
+        padding:5em 10%;
+    }
+    
+    h1 {
+        font-size:2.2em;
+        color:#000;
+        margin-bottom:1.35em;
+        line-height:120%;
+        padding:0;
+    }
+    
+    h2 {
+        font-size:1em;
+        color:#000;
+        line-height:135%;
+        margin:0 1.5em 0 0;
+    }
+    
+    .color {
+        float:none;
+        position:relative;
+        margin:0 0 2em 0;
+        padding: 0;
+    }
+    
+    .circle {
+        border-radius:50%;
+        box-shadow:inset 0 0 0 1px rgba(0,0,0,0.1);
+        width:5em;
+        height:5em;
+        float:left;
+        margin-right:1em;
+    }
+    
+    ul {
+        list-style-type:none;
+        line-height:140%;
+    }
+    
+    dl {
+        margin-top:1em;
+        color:gray;
+        margin-left:8.5em;
+        font-size:.7em;
+        line-height:155%;
+        
+    }
+    
+    dt {
+        float: left;
+        text-transform: uppercase;
+        color:#b7b7b7;
+        min-width:4em;
+    }
+    
+    dd {
+        float: none;
+    }
+    
+    .download {
+        background:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCIgd2lkdGg9IjE1IiBoZWlnaHQ9IjE1IiB2aWV3Qm94PSIwIDAgMzAgMzAiPgogIDxkZWZzPgogICAgPHN0eWxlPgoKICAgICAgLmNscy0yIHsKICAgICAgICBmaWxsOiAjMDAwOwogICAgICB9CiAgICA8L3N0eWxlPgogIDwvZGVmcz4KICA8cGF0aCBkPSJNMTUuMDAwLDMwLjAwMCBDNy4wNjAsMzAuMDAwIDAuNjI3LDIzLjgxMSAwLjEwMSwxNi4wMDQgQzAuMTAxLDE2LjAwNCAtMC4wMDAsMTYuMDA0IC0wLjAwMCwxNi4wMDQgQy0wLjAwMCwxNi4wMDQgLTAuMDAwLDQuMDE4IC0wLjAwMCw0LjAxOCBDLTAuMDAwLDQuMDE4IDAuMDA1LDQuMDE4IDAuMDA1LDQuMDE4IEMwLjAwNSw0LjAwNiAtMC4wMDAsMy45OTYgLTAuMDAwLDMuOTg0IEMtMC4wMDAsMS43ODQgMS43ODQsLTAuMDAwIDMuOTg0LC0wLjAwMCBDMy45OTAsLTAuMDAwIDMuOTk1LDAuMDAyIDQuMDAwLDAuMDAyIEM0LjAwMCwwLjAwMiA0LjAwMCwtMC4wMDAgNC4wMDAsLTAuMDAwIEM0LjAwMCwtMC4wMDAgMTYuMDAwLC0wLjAwMCAxNi4wMDAsLTAuMDAwIEMxNi4wMDAsLTAuMDAwIDE2LjAwMCwwLjEwMSAxNi4wMDAsMC4xMDEgQzIzLjgwOSwwLjYyNSAzMC4wMDAsNy4wNTggMzAuMDAwLDE1LjAwMCBDMzAuMDAwLDIzLjI4NCAyMy4yODQsMzAuMDAwIDE1LjAwMCwzMC4wMDAgWk00LjAxOCwyLjAwOSBDMi45MDgsMi4wMDkgMi4wMDksMi45MDggMi4wMDksNC4wMTggQzIuMDA5LDUuMTI3IDIuOTA4LDYuMDI3IDQuMDE4LDYuMDI3IEM1LjEyNyw2LjAyNyA2LjAyNyw1LjEyNyA2LjAyNyw0LjAxOCBDNi4wMjcsMi45MDggNS4xMjcsMi4wMDkgNC4wMTgsMi4wMDkgWk0yMi4wMDAsMTcuMDAwIEMyMi4wMDAsMTcuMDAwIDIyLjAwMCw4LjAwMCAyMi4wMDAsOC4wMDAgQzIyLjAwMCw4LjAwMCAxMC4wMDAsOC4wMDAgMTAuMDAwLDguMDAwIEMxMC4wMDAsOC4wMDAgMTQuNDMyLDEyLjQzMiAxNC40MzIsMTIuNDMyIEMxNC40MzIsMTIuNDMyIDguNTk3LDE4LjI2NyA4LjU5NywxOC4yNjcgQzcuNzUwLDE5LjExNCA3Ljc1MCwyMC40ODggOC41OTcsMjEuMzM1IEM5LjQ0NCwyMi4xODMgMTAuODE4LDIyLjE4MyAxMS42NjUsMjEuMzM1IEMxMS42NjUsMjEuMzM1IDE3LjUwMCwxNS41MDAgMTcuNTAwLDE1LjUwMCBDMTcuNTAwLDE1LjUwMCAyMi4wMDAsMjAuMDAwIDIyLjAwMCwyMC4wMDAgQzIyLjAwMCwyMC4wMDAgMjIuMDAwLDE3LjAwMCAyMi4wMDAsMTcuMDAwIFoiIGlkPSJwYXRoLTEiIGNsYXNzPSJjbHMtMiIgZmlsbC1ydWxlPSJldmVub2RkIi8+Cjwvc3ZnPgo=) no-repeat top right 2px;
+        top:0;
+        right:0;
+        height:100%;
+        width:100%;
+        font-size:0;
+        display:block;
+        position:absolute;
+        opacity:.1;
+    }
+    
+    .download:hover {
+        animation: downloadcolor .2s  ease-in 2 alternate;
+        opacity: .1;
+    }
+    
+    .download:active {
+        opacity: .3;
+    }
+    
+    @keyframes downloadcolor {
+        0%		{ right: 0px; top: 0px;}
+        100%	{ right: 0px; top: 5px;}
+    }
+    
+    
+    span {
+        text-transform: uppercase;
+        color:#b7b7b7;
+    }
+    
+    
+    /*  ASIDE ============ */
+    
+    #side-content {
+        background:linear-gradient(1deg, #ffffff 85%, #f7f7f7 100%);
+        padding-top: 2.5em;
+    }
+    
+    p {
+        line-height:170%;
+        margin-bottom:1em;
+        color:gray;
+        padding:0 10%;
+        font-size:.75em;
+        
+    }
+    
+    p:last-child{
+        margin-bottom: 5em;
+    }
+    
+    a {
+        color:#009cff;
+        text-decoration:none;
+        font-weight:500;
+        transition: all 0.2s ease;
+    }
+    
+    a:hover {
+        color:#005893;
+    }
+    
+    #palette {
+        width:100%;
+        position:fixed;
+        top:0;
+        right:0;
+        transition:all .4s ease;
+    }
+    
+    .rectangle {
+        height:.3em;
+        float:left;
+        box-shadow:inset 0 -.15em rgba(0,0,0,0.05);
+    }
+    
+    /*  FOOTER ============ */
+    
+    footer {
+        float: left;
+        padding-left: 10%;
+        margin: 0 0 2em 0;
+    }
+    
+    footer ul {
+        margin:0;
+        color:gray;
+        font-size:.7em;
+        line-height: 300%;
+    }
+    
+    #arrow {
+        background:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCIgd2lkdGg9IjE1IiBoZWlnaHQ9IjE1IiB2aWV3Qm94PSIwIDAgMzAgMzAiPgogIDxkZWZzPgogICAgPHN0eWxlPgoKICAgICAgLmNscy0yIHsKICAgICAgICBmaWxsOiAjMDA5Y2ZmOwogICAgICB9CiAgICA8L3N0eWxlPgogIDwvZGVmcz4KICA8cGF0aCBkPSJNMTUuMDAwLDMwLjAwMCBDNy4wNjAsMzAuMDAwIDAuNjI3LDIzLjgxMSAwLjEwMSwxNi4wMDQgQzAuMTAxLDE2LjAwNCAtMC4wMDAsMTYuMDA0IC0wLjAwMCwxNi4wMDQgQy0wLjAwMCwxNi4wMDQgLTAuMDAwLDQuMDE4IC0wLjAwMCw0LjAxOCBDLTAuMDAwLDQuMDE4IDAuMDA1LDQuMDE4IDAuMDA1LDQuMDE4IEMwLjAwNSw0LjAwNiAtMC4wMDAsMy45OTYgLTAuMDAwLDMuOTg0IEMtMC4wMDAsMS43ODQgMS43ODQsLTAuMDAwIDMuOTg0LC0wLjAwMCBDMy45OTAsLTAuMDAwIDMuOTk1LDAuMDAyIDQuMDAwLDAuMDAyIEM0LjAwMCwwLjAwMiA0LjAwMCwtMC4wMDAgNC4wMDAsLTAuMDAwIEM0LjAwMCwtMC4wMDAgMTYuMDAwLC0wLjAwMCAxNi4wMDAsLTAuMDAwIEMxNi4wMDAsLTAuMDAwIDE2LjAwMCwwLjEwMSAxNi4wMDAsMC4xMDEgQzIzLjgwOSwwLjYyNSAzMC4wMDAsNy4wNTggMzAuMDAwLDE1LjAwMCBDMzAuMDAwLDIzLjI4NCAyMy4yODQsMzAuMDAwIDE1LjAwMCwzMC4wMDAgWk00LjAxOCwyLjAwOSBDMi45MDgsMi4wMDkgMi4wMDksMi45MDggMi4wMDksNC4wMTggQzIuMDA5LDUuMTI3IDIuOTA4LDYuMDI3IDQuMDE4LDYuMDI3IEM1LjEyNyw2LjAyNyA2LjAyNyw1LjEyNyA2LjAyNyw0LjAxOCBDNi4wMjcsMi45MDggNS4xMjcsMi4wMDkgNC4wMTgsMi4wMDkgWk0yMi4wMDAsMTcuMDAwIEMyMi4wMDAsMTcuMDAwIDIyLjAwMCw4LjAwMCAyMi4wMDAsOC4wMDAgQzIyLjAwMCw4LjAwMCAxMC4wMDAsOC4wMDAgMTAuMDAwLDguMDAwIEMxMC4wMDAsOC4wMDAgMTQuNDMyLDEyLjQzMiAxNC40MzIsMTIuNDMyIEMxNC40MzIsMTIuNDMyIDguNTk3LDE4LjI2NyA4LjU5NywxOC4yNjcgQzcuNzUwLDE5LjExNCA3Ljc1MCwyMC40ODggOC41OTcsMjEuMzM1IEM5LjQ0NCwyMi4xODMgMTAuODE4LDIyLjE4MyAxMS42NjUsMjEuMzM1IEMxMS42NjUsMjEuMzM1IDE3LjUwMCwxNS41MDAgMTcuNTAwLDE1LjUwMCBDMTcuNTAwLDE1LjUwMCAyMi4wMDAsMjAuMDAwIDIyLjAwMCwyMC4wMDAgQzIyLjAwMCwyMC4wMDAgMjIuMDAwLDE3LjAwMCAyMi4wMDAsMTcuMDAwIFoiIGlkPSJwYXRoLTEiIGNsYXNzPSJjbHMtMiIgZmlsbC1ydWxlPSJldmVub2RkIi8+Cjwvc3ZnPgo=) no-repeat center left;
+        padding-left: 2em;
+    }
+    
+    /*  RESPONSIVE ============================================  */
+    
+    
+    @media (min-width: 450px) {
+        
+        h2 {
+            margin:1em 0 0 0;
+        }
+        
+        .color {
+            display: inline-block;
+            vertical-align: top;
+            width: 44%;
+            margin-right: 10%;
+        }
+        
+        .color:nth-child(odd) {
+            margin-right: 0;
+        }
+        
+        .circle  {
+            width:7em;
+            height:7em;
+            margin: 0;
+            float:none;
+        }
+        
+        dl {
+            margin-left:0em;
+        }
+        
+        .download {
+            background:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCIgd2lkdGg9IjE1IiBoZWlnaHQ9IjE1IiB2aWV3Qm94PSIwIDAgMzAgMzAiPgogIDxkZWZzPgogICAgPHN0eWxlPgoKICAgICAgLmNscy0yIHsKICAgICAgICBmaWxsOiAjMDAwOwogICAgICB9CiAgICA8L3N0eWxlPgogIDwvZGVmcz4KICA8cGF0aCBkPSJNMTUuMDAwLDMwLjAwMCBDNy4wNjAsMzAuMDAwIDAuNjI3LDIzLjgxMSAwLjEwMSwxNi4wMDQgQzAuMTAxLDE2LjAwNCAtMC4wMDAsMTYuMDA0IC0wLjAwMCwxNi4wMDQgQy0wLjAwMCwxNi4wMDQgLTAuMDAwLDQuMDE4IC0wLjAwMCw0LjAxOCBDLTAuMDAwLDQuMDE4IDAuMDA1LDQuMDE4IDAuMDA1LDQuMDE4IEMwLjAwNSw0LjAwNiAtMC4wMDAsMy45OTYgLTAuMDAwLDMuOTg0IEMtMC4wMDAsMS43ODQgMS43ODQsLTAuMDAwIDMuOTg0LC0wLjAwMCBDMy45OTAsLTAuMDAwIDMuOTk1LDAuMDAyIDQuMDAwLDAuMDAyIEM0LjAwMCwwLjAwMiA0LjAwMCwtMC4wMDAgNC4wMDAsLTAuMDAwIEM0LjAwMCwtMC4wMDAgMTYuMDAwLC0wLjAwMCAxNi4wMDAsLTAuMDAwIEMxNi4wMDAsLTAuMDAwIDE2LjAwMCwwLjEwMSAxNi4wMDAsMC4xMDEgQzIzLjgwOSwwLjYyNSAzMC4wMDAsNy4wNTggMzAuMDAwLDE1LjAwMCBDMzAuMDAwLDIzLjI4NCAyMy4yODQsMzAuMDAwIDE1LjAwMCwzMC4wMDAgWk00LjAxOCwyLjAwOSBDMi45MDgsMi4wMDkgMi4wMDksMi45MDggMi4wMDksNC4wMTggQzIuMDA5LDUuMTI3IDIuOTA4LDYuMDI3IDQuMDE4LDYuMDI3IEM1LjEyNyw2LjAyNyA2LjAyNyw1LjEyNyA2LjAyNyw0LjAxOCBDNi4wMjcsMi45MDggNS4xMjcsMi4wMDkgNC4wMTgsMi4wMDkgWk0yMi4wMDAsMTcuMDAwIEMyMi4wMDAsMTcuMDAwIDIyLjAwMCw4LjAwMCAyMi4wMDAsOC4wMDAgQzIyLjAwMCw4LjAwMCAxMC4wMDAsOC4wMDAgMTAuMDAwLDguMDAwIEMxMC4wMDAsOC4wMDAgMTQuNDMyLDEyLjQzMiAxNC40MzIsMTIuNDMyIEMxNC40MzIsMTIuNDMyIDguNTk3LDE4LjI2NyA4LjU5NywxOC4yNjcgQzcuNzUwLDE5LjExNCA3Ljc1MCwyMC40ODggOC41OTcsMjEuMzM1IEM5LjQ0NCwyMi4xODMgMTAuODE4LDIyLjE4MyAxMS42NjUsMjEuMzM1IEMxMS42NjUsMjEuMzM1IDE3LjUwMCwxNS41MDAgMTcuNTAwLDE1LjUwMCBDMTcuNTAwLDE1LjUwMCAyMi4wMDAsMjAuMDAwIDIyLjAwMCwyMC4wMDAgQzIyLjAwMCwyMC4wMDAgMjIuMDAwLDE3LjAwMCAyMi4wMDAsMTcuMDAwIFoiIGlkPSJwYXRoLTEiIGNsYXNzPSJjbHMtMiIgZmlsbC1ydWxlPSJldmVub2RkIi8+Cjwvc3ZnPgo=) no-repeat top left 120px;
+        }
+    }
+    
+    
+    
+    @media (min-width: 650px) {
+        
+        .color, .color:nth-child(odd) {
+            width: 29%;
+            margin-right: 5%;
+            margin-bottom: 2em;
+        }
+        
+        .color:nth-child(3n+1) {
+            width: 29%;
+            margin-right: 0;
+        }
+    }
+    
+    
+    
+    @media (min-width: 1000px) {
+        
+        section {
+            float:left;
+            width:75%;
+        }
+        
+        #articles-wrap {
+            padding:6em 13%;
+        }
+        
+        aside {
+            display: inline-block;
+            width:25%;
+            margin: 0;
+        }
+        
+        #side-content {
+            padding-top: 11em;
+        }
+        
+        p,aside ul {
+            padding:0 25% 0 0;
+        }
+        
+        #palette {
+            width: 25%;
+        }
+        
+        footer {
+            padding: 0;
+            width:25%;
+            float: right;
+        }
+    }
+    
+    
+    
+    @media (min-width: 1200px) {
+        
+        .color,.color:nth-child(odd), .color:nth-child(3n+1) {
+            width: 20%;
+            margin-right: 5%;
+        }
+        
+        .color:nth-child(4n+1) {
+            width: 20%;
+            margin-right: 0;
+        }
+    }
+    
+    
+    @media (min-width: 1450px) {
+        
+        section {
+            width:80%;
+        }
+        
+        .color,.color:nth-child(odd), .color:nth-child(3n+1), .color:nth-child(4n+1) {
+            width: 17%;
+            margin-right: 3%;
+        }
+        
+        .color:nth-child(5n+1) {
+            width: 17%;
+            margin-right: 0;
+        }
+        
+        aside {
+            width:20%;
+        }
+        
+        footer {
+            width:20%;
+        }
+        
+        #palette {
+            width: 20%;
+        }
+    }
+    
+}
+
+/*  PRINT ======================================================== */
+
+@media print {
+    * {
+        font-size:100%;
+        vertical-align:top;
+        border:0;
+        outline:0;
+        font-family:"SF UI Text", helvetica, arial, sans-serif;
+        font-weight:300;
+        -webkit-print-color-adjust:exact;
+        margin:0;
+        padding:0;
+    }
+    
+    #articles-wrap {
+        overflow:hidden;
+        padding:2em 5%;
+    }
+    
+    h1 {
+        font-size:2em;
+        color:#000;
+        margin-bottom:1.35em;
+        line-height:120%;
+        padding:0;
+    }
+    
+    h2 {
+        font-size:.8em;
+        color:#000;
+        line-height:135%;
+        margin:0;
+    }
+    
+    .color,.color:nth-child(odd) {
+        display:inline-block;
+        width:21%;
+        margin:0 4% 1em 0;
+        padding:0;
+    }
+    
+    .color:nth-child(4n+1) {
+        width:21%;
+        margin-right:0;
+    }
+    
+    .circle {
+        border-radius:50%;
+        box-shadow:inset 0 0 0 1px rgba(0,0,0,0.1);
+        width:5em;
+        height:5em;
+        float:none;
+        margin-right:1em;
+        margin-bottom:1em;
+    }
+    
+    dl {
+        color:gray;
+        font-size:.6em;
+        line-height:155%;
+        margin:1em 0 0;
+    }
+    
+    dt {
+        float:left;
+        text-transform:uppercase;
+        color:#b7b7b7;
+        min-width:4em;
+    }
+    
+    dd {
+        float:none;
+    }
+    
+    #side-content {
+        padding-top:2.5em;
+        border-top:.1em solid #d7d7d7;
+        margin:0 5%;
+    }
+    
+    p {
+        line-height:170%;
+        margin-bottom:1em;
+        color:gray;
+        font-size:.6em;
+        padding:0;
+    }
+    
+    p:last-child {
+        margin-bottom:5em;
+    }
+    
+    a {
+        color:#009cff;
+        text-decoration:none;
+        font-weight:500;
+        transition:all .2s ease;
+    }
+    
+    .download,#arrow {
+        font-size:0;
+    }
+    
+    ul {
+        list-style-type:none;
+        line-height:140%;
+    }
+    
+    footer {
+        float:left;
+        margin:0 0 2em;
+    }
+    
+    footer ul {
+        color:gray;
+        font-size:.6em;
+        line-height:100%;
+        margin:0;
+    }
+    
+}
+
+        </style>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <meta name='format-detection' content='telephone=no'>
+    </head>
+    <body>
+       <section>
+           <div id='articles-wrap'>
+               <header>
+                   <h1>Material Design Color - Indigo</h1>
+               </header>
+               <article class='color'>
+                   <div class='circle' style='background:RGBA(232,235,245,1.00);'></div>
+                   <h2>50 - Glitter</h2>
+                   <dl>
+                      <dt>cmyk:</dt>
+                      <dd>9 6 2 0 1.00</dd>
+                      <dt>rgba:</dt>
+                      <dd>232 235 245 1.00</dd>
+                      <dt>hex:</dt>
+                      <dd>#E8EBF5</dd>
+                   </dl>
+                   <a class='download' href='sip://color/rgba/232-235-245-1.00'>Download color</a>
+               </article>
+               <article class='color'>
+                   <div class='circle' style='background:RGBA(196,201,232,1.00);'></div>
+                   <h2>100 - Periwinkle</h2>
+                   <dl>
+                      <dt>cmyk:</dt>
+                      <dd>23 15 0 0 1.00</dd>
+                      <dt>rgba:</dt>
+                      <dd>196 201 232 1.00</dd>
+                      <dt>hex:</dt>
+                      <dd>#C4C9E8</dd>
+                   </dl>
+                   <a class='download' href='sip://color/rgba/196-201-232-1.00'>Download color</a>
+               </article>
+               <article class='color'>
+                   <div class='circle' style='background:RGBA(158,168,217,1.00);'></div>
+                   <h2>200 - Wistful</h2>
+                   <dl>
+                      <dt>cmyk:</dt>
+                      <dd>37 26 1 0 1.00</dd>
+                      <dt>rgba:</dt>
+                      <dd>158 168 217 1.00</dd>
+                      <dt>hex:</dt>
+                      <dd>#9EA8D9</dd>
+                   </dl>
+                   <a class='download' href='sip://color/rgba/158-168-217-1.00'>Download color</a>
+               </article>
+               <article class='color'>
+                   <div class='circle' style='background:RGBA(120,135,204,1.00);'></div>
+                   <h2>300 - Ship Cove</h2>
+                   <dl>
+                      <dt>cmyk:</dt>
+                      <dd>55 39 0 0 1.00</dd>
+                      <dt>rgba:</dt>
+                      <dd>120 135 204 1.00</dd>
+                      <dt>hex:</dt>
+                      <dd>#7887CC</dd>
+                   </dl>
+                   <a class='download' href='sip://color/rgba/120-135-204-1.00'>Download color</a>
+               </article>
+               <article class='color'>
+                   <div class='circle' style='background:RGBA(92,107,191,1.00);'></div>
+                   <h2>400 - Indigo</h2>
+                   <dl>
+                      <dt>cmyk:</dt>
+                      <dd>71 52 0 0 1.00</dd>
+                      <dt>rgba:</dt>
+                      <dd>92 107 191 1.00</dd>
+                      <dt>hex:</dt>
+                      <dd>#5C6BBF</dd>
+                   </dl>
+                   <a class='download' href='sip://color/rgba/92-107-191-1.00'>Download color</a>
+               </article>
+               <article class='color'>
+                   <div class='circle' style='background:RGBA(64,82,181,1.00);'></div>
+                   <h2>500 - Violet Blue</h2>
+                   <dl>
+                      <dt>cmyk:</dt>
+                      <dd>84 68 0 0 1.00</dd>
+                      <dt>rgba:</dt>
+                      <dd>64 82 181 1.00</dd>
+                      <dt>hex:</dt>
+                      <dd>#4052B5</dd>
+                   </dl>
+                   <a class='download' href='sip://color/rgba/64-82-181-1.00'>Download color</a>
+               </article>
+               <article class='color'>
+                   <div class='circle' style='background:RGBA(56,74,171,1.00);'></div>
+                   <h2>600 - Violet Blue</h2>
+                   <dl>
+                      <dt>cmyk:</dt>
+                      <dd>88 73 0 0 1.00</dd>
+                      <dt>rgba:</dt>
+                      <dd>56 74 171 1.00</dd>
+                      <dt>hex:</dt>
+                      <dd>#384AAB</dd>
+                   </dl>
+                   <a class='download' href='sip://color/rgba/56-74-171-1.00'>Download color</a>
+               </article>
+               <article class='color'>
+                   <div class='circle' style='background:RGBA(48,64,158,1.00);'></div>
+                   <h2>700 - Sapphire</h2>
+                   <dl>
+                      <dt>cmyk:</dt>
+                      <dd>93 79 0 1 1.00</dd>
+                      <dt>rgba:</dt>
+                      <dd>48 64 158 1.00</dd>
+                      <dt>hex:</dt>
+                      <dd>#30409E</dd>
+                   </dl>
+                   <a class='download' href='sip://color/rgba/48-64-158-1.00'>Download color</a>
+               </article>
+               <article class='color'>
+                   <div class='circle' style='background:RGBA(41,54,148,1.00);'></div>
+                   <h2>800 - Bay of Many</h2>
+                   <dl>
+                      <dt>cmyk:</dt>
+                      <dd>95 83 1 4 1.00</dd>
+                      <dt>rgba:</dt>
+                      <dd>41 54 148 1.00</dd>
+                      <dt>hex:</dt>
+                      <dd>#293694</dd>
+                   </dl>
+                   <a class='download' href='sip://color/rgba/41-54-148-1.00'>Download color</a>
+               </article>
+               <article class='color'>
+                   <div class='circle' style='background:RGBA(26,36,125,1.00);'></div>
+                   <h2>900 - Saint Patrick Blue</h2>
+                   <dl>
+                      <dt>cmyk:</dt>
+                      <dd>98 85 5 18 1.00</dd>
+                      <dt>rgba:</dt>
+                      <dd>26 36 125 1.00</dd>
+                      <dt>hex:</dt>
+                      <dd>#1A247D</dd>
+                   </dl>
+                   <a class='download' href='sip://color/rgba/26-36-125-1.00'>Download color</a>
+               </article>
+               <article class='color'>
+                   <div class='circle' style='background:RGBA(140,158,255,1.00);'></div>
+                   <h2>A100 - Portage</h2>
+                   <dl>
+                      <dt>cmyk:</dt>
+                      <dd>48 30 0 0 1.00</dd>
+                      <dt>rgba:</dt>
+                      <dd>140 158 255 1.00</dd>
+                      <dt>hex:</dt>
+                      <dd>#8C9EFF</dd>
+                   </dl>
+                   <a class='download' href='sip://color/rgba/140-158-255-1.00'>Download color</a>
+               </article>
+               <article class='color'>
+                   <div class='circle' style='background:RGBA(84,110,255,1.00);'></div>
+                   <h2>A200 - Ultramarine Blue</h2>
+                   <dl>
+                      <dt>cmyk:</dt>
+                      <dd>70 44 0 0 1.00</dd>
+                      <dt>rgba:</dt>
+                      <dd>84 110 255 1.00</dd>
+                      <dt>hex:</dt>
+                      <dd>#546EFF</dd>
+                   </dl>
+                   <a class='download' href='sip://color/rgba/84-110-255-1.00'>Download color</a>
+               </article>
+               <article class='color'>
+                   <div class='circle' style='background:RGBA(61,89,255,1.00);'></div>
+                   <h2>A400 - Ultramarine Blue</h2>
+                   <dl>
+                      <dt>cmyk:</dt>
+                      <dd>77 51 0 0 1.00</dd>
+                      <dt>rgba:</dt>
+                      <dd>61 89 255 1.00</dd>
+                      <dt>hex:</dt>
+                      <dd>#3D59FF</dd>
+                   </dl>
+                   <a class='download' href='sip://color/rgba/61-89-255-1.00'>Download color</a>
+               </article>
+               <article class='color'>
+                   <div class='circle' style='background:RGBA(48,79,255,1.00);'></div>
+                   <h2>A700 - Ultramarine Blue</h2>
+                   <dl>
+                      <dt>cmyk:</dt>
+                      <dd>81 54 0 0 1.00</dd>
+                      <dt>rgba:</dt>
+                      <dd>48 79 255 1.00</dd>
+                      <dt>hex:</dt>
+                      <dd>#304FFF</dd>
+                   </dl>
+                   <a class='download' href='sip://color/rgba/48-79-255-1.00'>Download color</a>
+               </article>
+           </div>
+           <span id='palette'>
+               <div class='rectangle' style='width:7.14%;background:RGBA(232,235,245,1.00);'></div>
+               <div class='rectangle' style='width:7.14%;background:RGBA(196,201,232,1.00);'></div>
+               <div class='rectangle' style='width:7.14%;background:RGBA(158,168,217,1.00);'></div>
+               <div class='rectangle' style='width:7.14%;background:RGBA(120,135,204,1.00);'></div>
+               <div class='rectangle' style='width:7.14%;background:RGBA(92,107,191,1.00);'></div>
+               <div class='rectangle' style='width:7.14%;background:RGBA(64,82,181,1.00);'></div>
+               <div class='rectangle' style='width:7.14%;background:RGBA(56,74,171,1.00);'></div>
+               <div class='rectangle' style='width:7.14%;background:RGBA(48,64,158,1.00);'></div>
+               <div class='rectangle' style='width:7.14%;background:RGBA(41,54,148,1.00);'></div>
+               <div class='rectangle' style='width:7.14%;background:RGBA(26,36,125,1.00);'></div>
+               <div class='rectangle' style='width:7.14%;background:RGBA(140,158,255,1.00);'></div>
+               <div class='rectangle' style='width:7.14%;background:RGBA(84,110,255,1.00);'></div>
+               <div class='rectangle' style='width:7.14%;background:RGBA(61,89,255,1.00);'></div>
+               <div class='rectangle' style='width:7.14%;background:RGBA(48,79,255,1.00);'></div>
+           </span>
+       </section>
+       <div id='side-content'>
+           <aside><p>by Zhenbang Xiao “Stark Shaw”</p></aside>
+           <footer>
+               <ul>
+                   <li id='arrow'><a href='sip://palette/Material Design Color - Indigo/rgba/232-235-245-1.00,196-201-232-1.00,158-168-217-1.00,120-135-204-1.00,92-107-191-1.00,64-82-181-1.00,56-74-171-1.00,48-64-158-1.00,41-54-148-1.00,26-36-125-1.00,140-158-255-1.00,84-110-255-1.00,61-89-255-1.00,48-79-255-1.00,' target='_blank'>Send palette to sip</a></li>
+                   <li>Made with <a href='https://itunes.apple.com/app/sip/id507257563?mt=12&ls=1' target='_blank'>Sip</a></li>
+               </ul>
+           </footer>
+       </div>
+    </body>
+</html>
+

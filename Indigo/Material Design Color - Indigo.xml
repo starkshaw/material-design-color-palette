@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<array>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.95999997854232788</real>
+			<key>green</key>
+			<real>0.92000001668930054</real>
+			<key>name</key>
+			<string>50 - Glitter</string>
+			<key>red</key>
+			<real>0.9100000262260437</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.9100000262260437</real>
+			<key>green</key>
+			<real>0.79000002145767212</real>
+			<key>name</key>
+			<string>100 - Periwinkle</string>
+			<key>red</key>
+			<real>0.76999998092651367</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.85000002384185791</real>
+			<key>green</key>
+			<real>0.6600000262260437</real>
+			<key>name</key>
+			<string>200 - Wistful</string>
+			<key>red</key>
+			<real>0.62000000476837158</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.80000001192092896</real>
+			<key>green</key>
+			<real>0.52999997138977051</real>
+			<key>name</key>
+			<string>300 - Ship Cove</string>
+			<key>red</key>
+			<real>0.4699999988079071</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.75</real>
+			<key>green</key>
+			<real>0.41999998688697815</real>
+			<key>name</key>
+			<string>400 - Indigo</string>
+			<key>red</key>
+			<real>0.36000001430511475</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.70999997854232788</real>
+			<key>green</key>
+			<real>0.31999999284744263</real>
+			<key>name</key>
+			<string>500 - Violet Blue</string>
+			<key>red</key>
+			<real>0.25</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.67000001668930054</real>
+			<key>green</key>
+			<real>0.28999999165534973</real>
+			<key>name</key>
+			<string>600 - Violet Blue</string>
+			<key>red</key>
+			<real>0.2199999988079071</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.62000000476837158</real>
+			<key>green</key>
+			<real>0.25</real>
+			<key>name</key>
+			<string>700 - Sapphire</string>
+			<key>red</key>
+			<real>0.18999999761581421</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.57999998331069946</real>
+			<key>green</key>
+			<real>0.20999999344348907</real>
+			<key>name</key>
+			<string>800 - Bay of Many</string>
+			<key>red</key>
+			<real>0.15999999642372131</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>0.49000000953674316</real>
+			<key>green</key>
+			<real>0.14000000059604645</real>
+			<key>name</key>
+			<string>900 - Saint Patrick Blue</string>
+			<key>red</key>
+			<real>0.10000000149011612</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>1</real>
+			<key>green</key>
+			<real>0.62000000476837158</real>
+			<key>name</key>
+			<string>A100 - Portage</string>
+			<key>red</key>
+			<real>0.55000001192092896</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>1</real>
+			<key>green</key>
+			<real>0.43000000715255737</real>
+			<key>name</key>
+			<string>A200 - Ultramarine Blue</string>
+			<key>red</key>
+			<real>0.33000001311302185</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>1</real>
+			<key>green</key>
+			<real>0.34999999403953552</real>
+			<key>name</key>
+			<string>A400 - Ultramarine Blue</string>
+			<key>red</key>
+			<real>0.23999999463558197</real>
+		</dict>
+		<dict>
+			<key>alpha</key>
+			<real>1</real>
+			<key>blue</key>
+			<real>1</real>
+			<key>green</key>
+			<real>0.31000000238418579</real>
+			<key>name</key>
+			<string>A700 - Ultramarine Blue</string>
+			<key>red</key>
+			<real>0.18999999761581421</real>
+		</dict>
+	</array>
+	<key>name</key>
+	<string>Material Design Color - Indigo</string>
+</dict>
+</plist>
