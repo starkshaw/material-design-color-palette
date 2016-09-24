@@ -1,0 +1,103 @@
+{
+  "name" : "Material Design Color - Purple",
+  "colors" : [
+    {
+      "red" : 0.9529412,
+      "alpha" : 1,
+      "name" : "50 - Amour",
+      "blue" : 0.9607843,
+      "green" : 0.8980392
+    },
+    {
+      "red" : 0.8823529,
+      "alpha" : 1,
+      "name" : "100 - Fog",
+      "blue" : 0.9058824,
+      "green" : 0.7450981
+    },
+    {
+      "red" : 0.8078431,
+      "alpha" : 1,
+      "name" : "200 - Wisteria",
+      "blue" : 0.8470588,
+      "green" : 0.5764706
+    },
+    {
+      "red" : 0.7294118,
+      "alpha" : 1,
+      "name" : "300 - Rich Lilac",
+      "blue" : 0.7843137,
+      "green" : 0.4078431
+    },
+    {
+      "red" : 0.6705883,
+      "alpha" : 1,
+      "name" : "400 - Deep Lilac",
+      "blue" : 0.7372549,
+      "green" : 0.2784314
+    },
+    {
+      "red" : 0.6117647,
+      "alpha" : 1,
+      "name" : "500 - Dark Orchid",
+      "blue" : 0.6901961,
+      "green" : 0.1529412
+    },
+    {
+      "red" : 0.5568628,
+      "alpha" : 1,
+      "name" : "600 - Violet Eggplant",
+      "blue" : 0.6666667,
+      "green" : 0.1411765
+    },
+    {
+      "red" : 0.4823529,
+      "alpha" : 1,
+      "name" : "700 - Seance",
+      "blue" : 0.6352941,
+      "green" : 0.1215686
+    },
+    {
+      "red" : 0.4156863,
+      "alpha" : 1,
+      "name" : "800 - Seance",
+      "blue" : 0.6039216,
+      "green" : 0.1058824
+    },
+    {
+      "red" : 0.2901961,
+      "alpha" : 1,
+      "name" : "900 - Daisy Bush",
+      "blue" : 0.5490196,
+      "green" : 0.07843138
+    },
+    {
+      "red" : 0.9176471,
+      "alpha" : 1,
+      "name" : "A100 - Violet",
+      "blue" : 0.9882353,
+      "green" : 0.5019608
+    },
+    {
+      "red" : 0.8784314,
+      "alpha" : 1,
+      "name" : "A200 - Free Speech Magenta",
+      "blue" : 0.9843137,
+      "green" : 0.2509804
+    },
+    {
+      "red" : 0.8352941,
+      "alpha" : 1,
+      "name" : "A400 - Psychedelic Purple",
+      "blue" : 0.9764706,
+      "green" : 0
+    },
+    {
+      "red" : 0.6666667,
+      "alpha" : 1,
+      "name" : "A700 - Vivid Violet",
+      "blue" : 1,
+      "green" : 0
+    }
+  ]
+}
