@@ -1,0 +1,103 @@
+{
+  "name" : "Material Design Color - Blue",
+  "colors" : [
+    {
+      "red" : 0.89,
+      "alpha" : 1,
+      "name" : "50 - Pattens Blue",
+      "blue" : 0.99,
+      "green" : 0.95
+    },
+    {
+      "red" : 0.73,
+      "alpha" : 1,
+      "name" : "100 - Sail",
+      "blue" : 0.98,
+      "green" : 0.87
+    },
+    {
+      "red" : 0.56,
+      "alpha" : 1,
+      "name" : "200 - Light Sky Blue",
+      "blue" : 0.98,
+      "green" : 0.79
+    },
+    {
+      "red" : 0.39,
+      "alpha" : 1,
+      "name" : "300 - Maya Blue",
+      "blue" : 0.96,
+      "green" : 0.71
+    },
+    {
+      "red" : 0.26,
+      "alpha" : 1,
+      "name" : "400 - Picton Blue",
+      "blue" : 0.96,
+      "green" : 0.65
+    },
+    {
+      "red" : 0.13,
+      "alpha" : 1,
+      "name" : "500 - Dodger Blue",
+      "blue" : 0.95,
+      "green" : 0.59
+    },
+    {
+      "red" : 0.12,
+      "alpha" : 1,
+      "name" : "600 - Bleu De France",
+      "blue" : 0.9,
+      "green" : 0.53
+    },
+    {
+      "red" : 0.1,
+      "alpha" : 1,
+      "name" : "700 - Navy Blue",
+      "blue" : 0.82,
+      "green" : 0.46
+    },
+    {
+      "red" : 0.08,
+      "alpha" : 1,
+      "name" : "800 - Denim",
+      "blue" : 0.75,
+      "green" : 0.4
+    },
+    {
+      "red" : 0.05,
+      "alpha" : 1,
+      "name" : "900 - Tory Blue",
+      "blue" : 0.63,
+      "green" : 0.28
+    },
+    {
+      "red" : 0.51,
+      "alpha" : 1,
+      "name" : "A100 - Jordy Blue",
+      "blue" : 1,
+      "green" : 0.69
+    },
+    {
+      "red" : 0.27,
+      "alpha" : 1,
+      "name" : "A200 - Bleu De France",
+      "blue" : 1,
+      "green" : 0.54
+    },
+    {
+      "red" : 0.16,
+      "alpha" : 1,
+      "name" : "A400 - Blue",
+      "blue" : 1,
+      "green" : 0.47
+    },
+    {
+      "red" : 0.16,
+      "alpha" : 1,
+      "name" : "A700 - Blue",
+      "blue" : 1,
+      "green" : 0.38
+    }
+  ]
+}
