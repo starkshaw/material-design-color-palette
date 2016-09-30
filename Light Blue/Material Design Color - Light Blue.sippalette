@@ -1,0 +1,103 @@
+{
+  "name" : "Material Design Color - Light Blue",
+  "colors" : [
+    {
+      "red" : 0.88,
+      "alpha" : 1,
+      "name" : "50 - Pattens Blue",
+      "blue" : 1,
+      "green" : 0.96
+    },
+    {
+      "red" : 0.7,
+      "alpha" : 1,
+      "name" : "100 - Sail",
+      "blue" : 0.99,
+      "green" : 0.9
+    },
+    {
+      "red" : 0.51,
+      "alpha" : 1,
+      "name" : "200 - Light Sky Blue",
+      "blue" : 0.98,
+      "green" : 0.83
+    },
+    {
+      "red" : 0.31,
+      "alpha" : 1,
+      "name" : "300 - Picton Blue",
+      "blue" : 0.97,
+      "green" : 0.76
+    },
+    {
+      "red" : 0.16,
+      "alpha" : 1,
+      "name" : "400 - Spiro Disco Ball",
+      "blue" : 0.96,
+      "green" : 0.71
+    },
+    {
+      "red" : 0.01,
+      "alpha" : 1,
+      "name" : "500 - Deep Sky Blue",
+      "blue" : 0.96,
+      "green" : 0.66
+    },
+    {
+      "red" : 0.01,
+      "alpha" : 1,
+      "name" : "600 - Cerulean",
+      "blue" : 0.9,
+      "green" : 0.61
+    },
+    {
+      "red" : 0.01,
+      "alpha" : 1,
+      "name" : "700 - Rich Electric Blue",
+      "blue" : 0.82,
+      "green" : 0.53
+    },
+    {
+      "red" : 0.01,
+      "alpha" : 1,
+      "name" : "800 - Ocean Boat Blue",
+      "blue" : 0.74,
+      "green" : 0.47
+    },
+    {
+      "red" : 0,
+      "alpha" : 1,
+      "name" : "900 - Medium Electric Blue",
+      "blue" : 0.61,
+      "green" : 0.34
+    },
+    {
+      "red" : 0.5,
+      "alpha" : 1,
+      "name" : "A100 - Light Sky Blue",
+      "blue" : 1,
+      "green" : 0.85
+    },
+    {
+      "red" : 0.25,
+      "alpha" : 1,
+      "name" : "A200 - Picton Blue",
+      "blue" : 1,
+      "green" : 0.77
+    },
+    {
+      "red" : 0,
+      "alpha" : 1,
+      "name" : "A400 - Deep Sky Blue",
+      "blue" : 1,
+      "green" : 0.69
+    },
+    {
+      "red" : 0,
+      "alpha" : 1,
+      "name" : "A700 - Azure",
+      "blue" : 0.92,
+      "green" : 0.57
+    }
+  ]
+}
